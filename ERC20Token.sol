@@ -34,7 +34,7 @@ contract SampleToken is IERC20 {
 
     uint256 totalSupply_;
 
-    constructor(uint256 total) public {
+    constructor(uint256 total) {
         totalSupply_ = total;
         balances[msg.sender] = totalSupply_;
     }
