@@ -4,6 +4,8 @@
  //In order to participate in the lottery the players must exactly pay 0.1 ether to the contract balance. 
  //The lottery winner will be picked randomly by the manger only.
  //And whosoever be the winner. The entire contract balance ether will be transferred to the winner's account. 
+ 
+ //Please Raise issue to improve the contract to implement and deploy the contract with full functionality asked in readme file.
 
 //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.18;
